@@ -331,7 +331,7 @@ const Hero = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <img 
-                  src="https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop" 
+                  src="/assets/neelakshipic.jpg" 
                   alt="Neelakshi Kaundal" 
                   className="w-full h-full object-cover"
                 />
