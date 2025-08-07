@@ -225,7 +225,7 @@ const Hero = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <img 
-                  src="https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop" 
+                  src="/assets/neelakshipic.jpg" 
                   alt="Neelakshi Kaundal" 
                   className="w-full h-full object-cover"
                 />
@@ -310,7 +310,7 @@ const Hero = () => {
                   aria-label={link.label}
                 >
                   <link.icon size={20} />
-                </motion.a>
+                    src="/assets/neelakshipic.jpg" 
               ))}
             </motion.div>
           </div>

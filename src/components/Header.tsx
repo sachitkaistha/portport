@@ -39,7 +39,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <div className="w-10 h-10 rounded-full border-2 border-steel-blue flex items-center justify-center">
               <img 
-                src="https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=40&h=40&fit=crop" 
+                src="/assets/neelakshipic.jpg" 
                 alt="NK" 
                 className="w-8 h-8 rounded-full object-cover"
               />
