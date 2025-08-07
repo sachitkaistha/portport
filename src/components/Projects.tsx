@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: 'Kubernetes CI/CD Pipeline',
       description: 'Automated deployment pipeline using Jenkins, Docker, and Kubernetes for microservices architecture.',
-      image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=600',
       tags: ['DevOps', 'Kubernetes', 'Jenkins', 'Docker'],
       category: 'DevOps',
       githubUrl: 'https://github.com/neelakshi-kaundal',
@@ -39,7 +39,7 @@ const Projects = () => {
     {
       title: 'Infrastructure as Code',
       description: 'Terraform scripts for AWS infrastructure provisioning with automated scaling and monitoring.',
-      image: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=600',
       tags: ['DevOps', 'Terraform', 'AWS', 'Infrastructure'],
       category: 'DevOps',
       githubUrl: 'https://github.com/neelakshi-kaundal',
@@ -48,7 +48,7 @@ const Projects = () => {
     {
       title: 'Python API Gateway',
       description: 'High-performance REST API built with FastAPI, featuring authentication, rate limiting, and monitoring.',
-      image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=600',
       tags: ['Python', 'FastAPI', 'PostgreSQL', 'Redis'],
       category: 'Python',
       githubUrl: 'https://github.com/neelakshi-kaundal',
@@ -57,7 +57,7 @@ const Projects = () => {
     {
       title: 'React Dashboard',
       description: 'Modern admin dashboard with real-time monitoring, analytics, and responsive design.',
-      image: 'https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=600',
       tags: ['React', 'TypeScript', 'Tailwind', 'Charts'],
       category: 'Web',
       githubUrl: 'https://github.com/neelakshi-kaundal',
@@ -66,7 +66,7 @@ const Projects = () => {
     {
       title: 'ML Model Deployment',
       description: 'Machine learning model deployment using Docker containers with automated retraining pipeline.',
-      image: 'https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=600',
       tags: ['Python', 'ML', 'Docker', 'TensorFlow'],
       category: 'ML',
       githubUrl: 'https://github.com/neelakshi-kaundal',
@@ -75,7 +75,7 @@ const Projects = () => {
     {
       title: 'Monitoring Stack',
       description: 'Complete monitoring solution using Prometheus, Grafana, and ELK stack for infrastructure observability.',
-      image: 'https://images.pexels.com/photos/1181678/pexels-photo-1181678.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/1181678/pexels-photo-1181678.jpeg?auto=compress&cs=tinysrgb&w=600',
       tags: ['DevOps', 'Prometheus', 'Grafana', 'ELK'],
       category: 'DevOps',
       githubUrl: 'https://github.com/neelakshi-kaundal',

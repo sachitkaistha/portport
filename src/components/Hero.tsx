@@ -273,14 +273,16 @@ const Hero = () => {
               className="flex flex-col sm:flex-row gap-4 mb-8"
               variants={itemVariants}
             >
-              <motion.button
+              <motion.a
+                href="/resume.pdf"
+                download
                 className="px-6 py-3 border-2 border-steel-blue text-steel-blue font-medium rounded-lg hover:bg-steel-blue hover:text-white transition-all duration-300 flex items-center justify-center gap-2"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
               >
                 <Download size={18} />
                 📄 Download Resume
-              </motion.button>
+              </motion.a>
 
               <motion.button
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
@@ -310,7 +312,7 @@ const Hero = () => {
                   aria-label={link.label}
                 >
                   <link.icon size={20} />
-                    src="/assets/neelakshipic.jpg" 
+                </motion.a>
               ))}
             </motion.div>
           </div>

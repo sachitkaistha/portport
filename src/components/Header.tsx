@@ -37,13 +37,16 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <div className="w-10 h-10 rounded-full border-2 border-steel-blue flex items-center justify-center">
+            <button 
+              onClick={() => scrollToSection('#home')}
+              className="w-10 h-10 rounded-full border-2 border-steel-blue flex items-center justify-center hover:border-white transition-colors duration-300"
+            >
               <img 
                 src="/assets/neelakshipic.jpg" 
                 alt="NK" 
                 className="w-8 h-8 rounded-full object-cover"
               />
-            </div>
+            </button>
           </div>
           
           {/* Desktop Navigation */}

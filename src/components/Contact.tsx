@@ -132,8 +132,11 @@ const Contact = () => {
                   <motion.a
                     key={index}
                     href={info.href}
-                    className="flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-all duration-300 group"
+                    className={`flex items-center p-4 bg-gray-50 rounded-lg hover:bg-gray-100 transition-all duration-300 group ${
+                      info.href === '#' ? 'cursor-default' : 'cursor-pointer'
+                    }`}
                     whileHover={{ scale: 1.02, x: 5 }}
+                    onClick={info.href === '#' ? (e) => e.preventDefault() : undefined}
                   >
                     <div className="w-12 h-12 bg-steel-blue rounded-lg flex items-center justify-center mr-4 group-hover:bg-blue-600 transition-colors duration-300">
                       <info.icon size={24} className="text-white" />
